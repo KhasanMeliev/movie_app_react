@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Axios from "axios";
 import { FlexBox } from "./FlexBox/FlexBox";
 import {
   Box,
@@ -16,7 +15,7 @@ import {
 import { AiFillStar } from "react-icons/ai";
 const Movie = () => {
   const [name, setName] = useState("");
-  const [key, setKey] = useState("698ae0e");
+  let key = "698ae0e";
   const [datas, setDatas] = useState();
   let err = `Kino Topilmadi`;
   const searchMovie = () => {
