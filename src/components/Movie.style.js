@@ -9,6 +9,7 @@ export const Wrapper = styled.div`
   padding: 30px 0px;
   color: white;
 `;
+
 export const Box = styled.div`
   width: 50%;
   background-color: #201f28;
@@ -27,6 +28,7 @@ export const Box = styled.div`
     width: 90%;
   }
 `;
+
 export const Input = styled.input`
   width: 250px;
   height: 33px;
@@ -124,3 +126,4 @@ export const PlotCast = styled.div`
     color: #a0a0a0;
   }
 `;
+
